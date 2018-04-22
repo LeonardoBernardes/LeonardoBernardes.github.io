@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portifólio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  <!-- background-color:#0069cc; -->
+	  background-color:#000;
+	  color:#000;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+	  background-image:url('img.jpg');
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #000;
+	  font-size:30px;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: 100%;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	.dropdown open{
+		padding-left:20%;
+		padding-right:20%;
+		background-color: #000;
+		
+		<!--margin-left:50%;
+		margin-top:1%;-->
+	}
+	.dropdown{
+		background-color: #000;
+		color:#000;
+	}
+	.btn-primary {
+		background-color: #000;
+		border-color: #000;
+	}
+
+	span{
+		font-size:30px;
+		color:#ffffff;
+	}
+	p{ 
+		font-size:18px;
+		font-style:bold;
+	}
+	li{
+		font-size:16px;
+	}
+	
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="..\portifolio\index.html"><span>Leonardo Bernardes da Silva</span></a>
+	</div>
+  </div>
+</nav>
+  	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Redes Sociais
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="http://www.linkedin.com/in/leonardo-bernardes-da-silva-a8869b132">LinkedIn</a></li>
+			<li><a href="http://www.facebook.com/lezinho.bernardes">Facebook</a></li>
+			
+		</ul>
+	</div>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+    </div>
+    <div class="col-sm-8 text-left">
+	  <h1>Meus Hobbies</h1>
+      <ul>
+			
+			<li>Praticar esportes</li>
+			<li>Jogar video game</li>
+			<li>Assistir Filmes e Séries</li>
+	  </ul>
+	  </ul>
+	  
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p><a href="..\portifolio\experiencia.html">Experiência e Formação Acadêmica</p>
+      </div>
+      <div class="well">
+        <p><a href="..\portifolio\hobby.html">Meus Hobbies</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>"Criatividade é a inteligência se divertindo" - Albert Einstein</p>
+</footer>
+
+</body>
+</html>
